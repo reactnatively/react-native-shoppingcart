@@ -9,6 +9,11 @@ import { books } from '../Data'
 import Products from '../components/Products'
 import { connect } from 'react-redux'
 class BooksScreen extends Component {
+
+  static navigationOptions = {
+      headerTitle: 'Books'
+  }
+
     render() {
         return (
             <View style={styles.container}>
